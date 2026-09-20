@@ -1,5 +1,23 @@
 JS: Sempre colocar ele no final da pagina para o site carregar ele depois e da tempo para o resto carregar antes
 para usar no node e so digitar node "index.js", o js ele fuciona muito mais para clientes para trazer interacoes com
-o cliente, ele tambem pode ser usado para servidores
+o cliente, ele tambem pode ser usado para servidores, primeira versao dele ECMAscrpit ele pulou a versao 4
+
+TECNOLOGIAS: Voce precisa saber JavaScrpit para usar, jquery, angular, react, vue, electron, e tals
 cliente x servido: cliente sao os dispositivos que os usuarios utilizam, para acessar o servido precisamos de um
 intermediario no caso navegador
+
+TAG: window.alert() faz aparecer um alerta, window.confirm() faz aparece uma janela de confirmacao, window.prompton() faz aperecer
+uma janela para digitar coisas,
+
+COMENTARIOS: Para fazer comentarios se utiliza // ou /* */, e muito importante para enetender o codigo
+
+VARIAVEIS E TIPOS PRIMITIVOS: Sinal = significa recebe e nao pode significar igual porque ele pode receber outos valores
+VAR = Uma variavel para criat var nome/identificadores = recebe, nao pode usar mumeros no inico, e possivel usar assentos e simbolos,
+ nao pode ter espacos e nao pode ter palavras reservadas "fuction,activ etc", para dar outro valor a variavel e so repetir ela so que
+ sem o var de inicio
+ var nome = "Biel"
+ nome = "biel"
+ TIPOS DE DADOS: number sao numeros, strings sao cadeias de caracteres e tambem pode ter numeros tipo cpf, telefone tals,
+ boolean sao valores true e false, para ver qual e o tipo se utiliza typeof variavel
+ DIFERENCA ENTRE `` E "" OU '': O `` a variavel e nsao so ela pode ser processada dentro do texto com ${} ja a '' ou "" tudo e tratado
+ como um texto
