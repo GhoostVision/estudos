@@ -12,6 +12,7 @@ uma janela para digitar coisas,
 COMENTARIOS: Para fazer comentarios se utiliza // ou /* */, e muito importante para enetender o codigo
 
 VARIAVEIS E TIPOS PRIMITIVOS: Sinal = significa recebe e nao pode significar igual porque ele pode receber outos valores
+OQUE E UMA VARIAVEL? Ela armazenar dados que serao utilizados
 VAR = Uma variavel para criat var nome/identificadores = recebe, nao pode usar mumeros no inico, e possivel usar assentos e simbolos,
  nao pode ter espacos e nao pode ter palavras reservadas "fuction,activ etc", para dar outro valor a variavel e so repetir ela so que
  sem o var de inicio
@@ -21,3 +22,14 @@ VAR = Uma variavel para criat var nome/identificadores = recebe, nao pode usar m
  boolean sao valores true e false, para ver qual e o tipo se utiliza typeof variavel
  DIFERENCA ENTRE `` E "" OU '': O `` a variavel e nsao so ela pode ser processada dentro do texto com ${} ja a '' ou "" tudo e tratado
  como um texto
+
+MANIPULACAO DE DADOS: a variavel vai receber o valor e assim conseguir amazenar ele dentro dele, exemplo
+var nome = windows.prompt(seu nome), o prompt vai pegar oque voce digitou e colocar dentro da variavel
+VIRAR NUMERO UMA STRING: Se utiliza ou Number.parseInt(numero) ele coneverte o numero sem virgula 10
+ou Number.parseFloat(numero) que ja converte com virgula ou so Number()
+VIRAR NUMERO UMA STRING: String(numero ou letra) Faz vira uma letra
+.length: Faz contar quantas strings tem minha palavra
+.toUpperCase(): todas as letra fica maiuscula
+.toLowerCase(): todas as letras fica minusculas
+toFixed(2): Faz criar uma casa nova para os numeros 200.0 com ele 200.00
+replace(".",","): Faz trocar um elemento por outro, eles sao trocados dentro das aspas exemplo 200.0 com ele 200,0
