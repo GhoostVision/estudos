@@ -33,3 +33,38 @@ VIRAR NUMERO UMA STRING: String(numero ou letra) Faz vira uma letra
 .toLowerCase(): todas as letras fica minusculas
 toFixed(2): Faz criar uma casa nova para os numeros 200.0 com ele 200.00
 replace(".",","): Faz trocar um elemento por outro, eles sao trocados dentro das aspas exemplo 200.0 com ele 200,0
+
+OPERADORES JS: aritimeticos, atribuicao, relacionais, logicos, ternarios
+ARITIMETICOS: + adicao, - subtracao, * multiplicacao, / divisao com virgula/inteira, % resto da divisao inteira que sobrou
+** potencia
+ORDEM DE PRECEDENCIA: Analizar primeiro (), segundo **, terceiros * / **, quarto + - 
+SIMPLIFICACAO: += vai pegar a propria variavel e somar com o numero "var n = 4" "n += 4" e assim da para fazer com os outros operdadores
+RELACIONAIS(valor boolean verdadeiro ou falso):> pergunta se um numero e maior que ele , < pergunta se um numero e menor que ele,
+>= pergunta se um numero e maior que ele ou igual ,<= pergunta se um numero e menor que ele ou igual,== pergunta se um numero e igual a ele,
+!= pergunta se um numero e diferente dele
+preco >= 200.50 o preco e maior ou igual a 200.50?
+idade < 18 a idade e menor que 18?
+curso == `JavaScrpit` o curso e igual a JavaScrpit?
+n1 != n2 o numero n1 e diferentedo n2?
+IDENTIDADE: === faz verificar se os dois sao do mesmo tipo de dado exemplo 5 === `5` false ou 5 >== 5 true
+OPERADORES LOGICOS: ! negacao, && conjucao, || disjuncao
+idade >= && <= 17 idade esta entre 15 e 17?
+estado == `RJ` || estado == `SP`
+salario > 1500 && sexo != `M`
+&& → Conjunção (E)
+- As duas condições precisam ser verdadeiras.
+Exemplo:
+idade >= 15 && idade <= 17
+|| → Disjunção (OU)
+- Pelo menos uma condição precisa ser verdadeira.
+Exemplo:
+estado == "RJ" || estado == "SP"
+! → Negação (NÃO)
+- Inverte o resultado da condição.
+Exemplo:
+!(idade >= 18)
+RESUMO:
+&& → E
+|| → OU
+!  → NÃO
+OPERADORES TERNARIO: fuciona como se fosse uma pergunta 9>=10?`maior`:`menor` usa ? e :

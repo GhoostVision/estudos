@@ -1,6 +1,7 @@
-var nomeJogo = String(window.prompt(`Qual jogo voce quer buscar?`));
-var generoJogo = window.prompt(`Qual e o genero dele?`);
-var precoJogo = Number(window.prompt(`Qual preco voce gostaria de comprar?`));
-var lanacamentoJogo = window.prompt(`Quando foi lancado?`);
+var jogoNome = window.prompt(`Digite o nome do jogos`)
+var jogoIdade = Number(window.prompt(`Digite e a sua idade`))
+var jogoPreco = Number(window.prompt(`Digite o preco`))
+var exibirIdade = jogoIdade >= 18 ? `PODE JOGAR PELA IDADE` : `NAO PODE JOGAR PELA IDADE`
+var valorExebir = jogoPreco >= 100 ? `PRECO ALTO` : `PRECO BAIXO`
 
-window.alert(`Seu jogo e ${nomeJogo.toUpperCase()}, ele possui ${nomeJogo.length} caracteres, o genero e ${generoJogo.toLowerCase()} o preco e de RS$ ${precoJogo.toFixed(2)}, lancado em ${lanacamentoJogo}`)
+window.alert(`JOGO: ${jogoNome.toUpperCase()}, SEU JOGO TEM:${jogoNome.length} CARACTRES, POSSUI O PRECO: R$ ${jogoPreco.toFixed(2).replace(".",",")}, CLASSIFICADO PRECO COMO:${valorExebir}, E VOCE ${exibirIdade}`)
