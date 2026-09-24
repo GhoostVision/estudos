@@ -21,3 +21,17 @@ body{
     margin: 0 10px;
     font-size: 25px;
 }
+
+.meio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio button{
+    background:white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}

@@ -68,3 +68,10 @@ RESUMO:
 || → OU
 !  → NÃO
 OPERADORES TERNARIO: fuciona como se fosse uma pergunta 9>=10?`maior`:`menor` usa ? e :
+
+DOM: Document Object Model, ele meio que fuciona no objetos do seu site, tem que saber a arvore do DOM
+tem como selecionar o elemento por id, marca, classe, seletor e nome
+INNER TEXT: E o texto dentro do elemento que vc tem, o innerText pega a formatacao sem os filhos que estao dentro do html. innerHTML pega tudo
+ EXPLICANDO: window.document.getElementById(`id do elemento`), aqui voce esta seguindo um caminho para buscar um ID
+ que se chama vermelho, voce consehue alterar varias coisas nele exemplo vermelho.style.color = `red` tambem da para colocar no final
+ window.document.getElementById(`id do elemento`).innerText, mas somente se eu for alterar uma coisa no elemento
