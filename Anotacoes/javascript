@@ -75,3 +75,23 @@ INNER TEXT: E o texto dentro do elemento que vc tem, o innerText pega a formatac
  EXPLICANDO: window.document.getElementById(`id do elemento`), aqui voce esta seguindo um caminho para buscar um ID
  que se chama vermelho, voce consehue alterar varias coisas nele exemplo vermelho.style.color = `red` tambem da para colocar no final
  window.document.getElementById(`id do elemento`).innerText, mas somente se eu for alterar uma coisa no elemento
+ 
+ DOM EVENTOS: Existe varios tipos de eventos diferentes, desde para celular e computador
+ FUNCAO: E um conjuto de linhas que vao se executada so qaundo o evento ocorrer, essas limhas se cjamamam bloco, e sao determinadar dentro do {},
+ voce tem que nomear ele com uma fuction no comeco dele, e depois nomear, tambem precisa colocar paranmetros dentro dela, ficando assim
+ fuction evento(){
+
+ }
+FUNCAO CLICK: Para chamar a funcao de click se usa no html onclik = "nome()", onmouseenter chama a funcao de quando passa o mouse em cima
+ onmouseout quando o mouse sair do elemento
+ exemplo de codigo: 
+ <div id="meio">
+    <h2 id="vermelho">Inicio de manipulacao de dom</h2>
+    <button onclick="evento()">Clique aqui</button>
+  </div>
+
+  function evento(){ //quando clicar o elemento chamado vermelho vai mudar o texto para clicou e logo depois fica verde
+    var vermelho = window.document.getElementById(`vermelho`)
+    vermelho.innerHTML = `Clicou`
+    vermelho.style.color = `green`
+}

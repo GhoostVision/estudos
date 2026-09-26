@@ -22,14 +22,18 @@ body{
     font-size: 25px;
 }
 
-.meio{
+#meio{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 4px 4px 10px black;
+    height: 200px;
+    width: 98%;
+    margin: 10px;
 }
 
-.meio button{
+#meio button{
     background:white;
     padding: 15px;
     border: none;
