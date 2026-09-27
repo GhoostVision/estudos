@@ -95,3 +95,24 @@ FUNCAO CLICK: Para chamar a funcao de click se usa no html onclik = "nome()", on
     vermelho.innerHTML = `Clicou`
     vermelho.style.color = `green`
 }
+
+CONDICOES: E como se o codigo tivesse que tomar dois caminhos para continuar, entao ele usado como if e else, if = se(true), else = se nao(falso)
+ESTRUTURA:
+if(condicao){
+
+}else{
+
+}
+
+Exemplo de codigo:
+function calcular(){
+    var txtvel = window.document.getElementById(`txtvel`)
+    var vel = Number(txtvel.value)
+    var resposta = window.document.getElementById(`resposta`)
+    resposta.innerHTML = `Sua velocidade e de ${vel} km/h`
+    if (vel > 60){
+        resposta.innerHTML += ` Voce foi multado`
+    }else{
+        resposta.innerHTML += ` Voce nao foi multado`
+    }
+}
