@@ -116,3 +116,40 @@ function calcular(){
         resposta.innerHTML += ` Voce nao foi multado`
     }
 }
+
+condicao simples e feito so com uma condicao if, condicao compostas vem com if e else, condicoes aninhadas e feito com mais de duas condicoes
+
+if(){
+
+}else if(){
+
+}else{
+
+}
+
+SWITH:usado para verificar uma variável contra várias possibilidades diferentes. É uma alternativa ao if/else quando existem vários casos para verificar.
+swith(expresao){
+    case valor1:
+    break//obrigatorio
+    case valor2:
+    break //obrigatorio
+    case valor3:
+    break //obrigatorio
+    default:
+    break //obrigatorio
+}
+
+var jogo = `Minecraft`
+
+switch (jogo) {
+    case `Minecraft`:
+        resposta.innerHTML = `Você escolheu Minecraft`
+        break
+
+    case `Resident Evil`:
+        resposta.innerHTML = `Você escolheu Resident Evil`
+        break
+
+    default:
+        resposta.innerHTML = `Jogo não encontrado`
+}
