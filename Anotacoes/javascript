@@ -153,3 +153,72 @@ switch (jogo) {
     default:
         resposta.innerHTML = `Jogo não encontrado`
 }
+
+REPETICOES: Ele e como se fosse um if, so que em ves dele ser executado uma vez, ele se executa ate sastifazer a condicao varias vezes
+exemplo: fuction comerPizza(){
+    while(temFatia()){
+        comerFatia()
+    }
+}
+
+var c = 1
+
+while (c <= 6) {
+    console.log(1)
+    c++
+}
+WHILE — LAÇO DE REPETIÇÃO
+
+→ WHILE significa "enquanto".
+
+→ Ele repete um código ENQUANTO uma condição for verdadeira.
+
+Exemplo:
+
+var c = 1
+
+while (c <= 5) {
+    console.log(`Tudo bem`)
+    c++
+}
+
+Como funciona:
+
+1. O programa verifica a condição.
+2. Se for verdadeira → executa o código.
+3. Depois volta para a condição.
+4. Verifica novamente.
+5. Continua repetindo enquanto for verdadeira.
+6. Quando for falsa → o WHILE para.
+
+Pense assim:
+
+ENQUANTO isso for verdade:
+    FAÇA isso
+
+Exemplo:
+
+Enquanto eu não chegar no 5:
+    continuo contando
+
+1 → continua
+2 → continua
+3 → continua
+4 → continua
+5 → chegou → PARA
+
+DIFERENÇA:
+
+IF → verifica e executa uma vez.
+
+WHILE → verifica, executa e VOLTA para verificar novamente.
+
+RESUMO:
+
+WHILE = "ENQUANTO isso for verdade, continue fazendo."
+
+ESTRUTURA DE REPETICAO COM CONTROLE: Inves de agora o contador nao ter uma condicaofinal, ele comeca a ter
+
+for (inicialização; condição; atualização) {
+    // o que quero executar
+}
