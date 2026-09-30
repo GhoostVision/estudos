@@ -4,8 +4,8 @@ function verificar() {
     
     for(var contador = 1;contador <= 10; contador++){
         var resultado = numero * contador
-      resposta.innerHTML += resultado
+      resposta.innerHTML += `${numero} x ${contador} = ${resultado}<br>`
       
     }
    
-}
+}z
