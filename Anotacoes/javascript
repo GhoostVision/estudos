@@ -96,6 +96,8 @@ FUNCAO CLICK: Para chamar a funcao de click se usa no html onclik = "nome()", on
     vermelho.style.color = `green`
 }
 
+FUNCAO DE CARREGA A PAGINA: onload(), quando minha pagina carregar vai executar tal comando
+
 CONDICOES: E como se o codigo tivesse que tomar dois caminhos para continuar, entao ele usado como if e else, if = se(true), else = se nao(falso)
 ESTRUTURA:
 if(condicao){
