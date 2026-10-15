@@ -224,3 +224,34 @@ ESTRUTURA DE REPETICAO COM CONTROLE: Inves de agora o contador nao ter uma condi
 for (inicialização; condição; atualização) {
     // o que quero executar
 }
+
+TROCAR IMAGEM: Colocar um var no document com img e depois por exemplo img.src = `foto.png`
+
+CRIAR ELEMENTOS: document.createElement(``) dentro vc escolhe qual tag voce quer, um p, img, span e tals
+
+ADICIONAR ATRIBUTO PELO JS: elemento.setAttribute(`id`, `nome do id que voce quer` ) ou tambem para imagem (`src`, `foto.png`)
+
+VARIAVEIS COMPOSTA: Array e uma variavel composta de varios elementos, comecando de 0 var vaga = [0,1,2] e pada acresentar um novo valor utlizar
+vaga[3] = `carro4`, para ir direto para o final do array se usa exemplo vaga.push(`carro5S), para saber o comprimento a.length, usar sort() faz os elementos do array
+ficar em ordem crescente, para saber qual elemento ta em determinada posicao coloca vaga[3], buscar um valor dentro vaga.indexOF(`carro2), muito bom para sistemas de procura
+
+FUNCAO COM PARANMETROS: pelo oq eu etendi o parametro vai dentro do () so que nao entendi para que serve
+
+escrever no documento se usa document.write(``), usado para propositos de teste
+
+DECLARACOES JS: Usar ponto e virgula para o js identificador que e uma separacao de declaracoes e assim nao sa erro no codigo, {} faz se uma decaracao em bloco de codigo 
+SINTAXE:sintaxe é basicamente o conjunto de regras que você precisa seguir para escrever código em uma linguagem de programação como se fosse a lingua portuguesa, existe expressoes que ja exitem valores
+tipo -,+,= e ntao nao tem como usar para um var pri-meiro(erro), pq ele identifica como se fosse pri menos meiro
+COMENTARIOS: // ou /**/
+
+TIPOS DE VARIAVEIS:var, let e const, tem como declarar varias variveis de uma vez var a,b,c, se voce comeca uma string o js identifica que o valor intero e tipo um texto, exemplo
+nome = `biel`
+idade = 20
+console.log(nome + idade + 10) = biel2010
+inverso
+console.log(idade + 10 + nome) = 40biel
+nao mistura stings com number por que da muito problema e nem fazer calculor e tals
+VAR: pode ser redecarada tipo var nome = `biel` depois var nome = `antonio`, quase nunca usado
+LET: Nao pode ser redecarada exemplo let nome = `biel` depois let nome = `antonio`(erro), ele tambem tem a regra do {}
+que se ele foi declarado la dentro ele so vai fucionar la dentro
+CONST: o const so pode ter um unico valor, ele nao pode nem receber outro valor dentro do {}
