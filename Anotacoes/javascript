@@ -255,3 +255,17 @@ VAR: pode ser redecarada tipo var nome = `biel` depois var nome = `antonio`, qua
 LET: Nao pode ser redecarada exemplo let nome = `biel` depois let nome = `antonio`(erro), ele tambem tem a regra do {}
 que se ele foi declarado la dentro ele so vai fucionar la dentro
 CONST: o const so pode ter um unico valor, ele nao pode nem receber outro valor dentro do {}
+
+FUCTION E PARAMETROS:  Voce cria uma funcao e dentro dos () coloca um parametro exemplo (valor1 + valor2), e depoisse quiser coloca um return com alguma coisa escrita, return seria a especie de um innerText so que mais facil de
+digitar, tambem o numero do parametro pode ser mudado, ser o let for decarado dentro de uma funcao, ele nao pode ser redecarado fora
+
+let salario = 1500
+function dinheiro_renda (salario){
+    if (salario < 1000){
+        return `Liberar auxilio`
+    }
+
+    return `Negar auxilio`;
+}
+
+alert(dinheiro_renda(salario)) ou alert(dinheiro_renda(2000))
