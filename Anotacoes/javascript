@@ -269,3 +269,5 @@ function dinheiro_renda (salario){
 }
 
 alert(dinheiro_renda(salario)) ou alert(dinheiro_renda(2000))
+
+CRIAR UM OBJETO:let carro = {marca:"ford", modelo:"ka", ano:2015, placa:"HJK-6765", buzina:function(){alert(`biiiiii`)} e para prcocurar dentro de objeto se usa ex:carro.marca e para chamar uma funcao, carro.buzina()
