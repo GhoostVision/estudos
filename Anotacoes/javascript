@@ -271,3 +271,137 @@ function dinheiro_renda (salario){
 alert(dinheiro_renda(salario)) ou alert(dinheiro_renda(2000))
 
 CRIAR UM OBJETO:let carro = {marca:"ford", modelo:"ka", ano:2015, placa:"HJK-6765", buzina:function(){alert(`biiiiii`)} e para prcocurar dentro de objeto se usa ex:carro.marca e para chamar uma funcao, carro.buzina()
+
+# JavaScript — Resumo de elementos e DOM
+
+## 1. Selecionar elementos
+```js
+document.getElementById("id")
+document.querySelector(".classe")
+document.querySelectorAll(".classe")
+```
+- `getElementById()` — seleciona pelo ID.
+- `querySelector()` — seleciona o primeiro elemento correspondente.
+- `querySelectorAll()` — seleciona todos os elementos correspondentes.
+
+## 2. Criar elementos
+```js
+document.createElement("div")
+```
+Cria um novo elemento HTML, mas não o adiciona automaticamente à página.
+
+## 3. Adicionar elementos à página
+```js
+caixa.appendChild(elemento)
+caixa.append(elemento1, elemento2)
+```
+- `appendChild()` — adiciona um elemento dentro de outro.
+- `append()` — adiciona vários elementos ou textos.
+
+## 4. Trabalhar com classes CSS
+```js
+elemento.classList.add("classe")
+elemento.classList.remove("classe")
+elemento.classList.toggle("classe")
+elemento.classList.contains("classe")
+```
+- `add()` — adiciona uma classe.
+- `remove()` — remove uma classe.
+- `toggle()` — adiciona ou remove uma classe.
+- `contains()` — verifica se a classe existe.
+
+## 5. Alterar conteúdo
+```js
+elemento.innerText = "Texto"
+elemento.textContent = "Texto"
+elemento.innerHTML = "<p>Texto</p>"
+```
+- `innerText` — define o texto visível.
+- `textContent` — define ou obtém o conteúdo textual.
+- `innerHTML` — define ou obtém conteúdo HTML.
+
+## 6. Ler valores de inputs
+```js
+input.value
+Number(input.value)
+```
+- `value` — obtém o valor digitado, geralmente como texto.
+- `Number()` — converte o valor em número.
+
+## 7. Remover elementos
+```js
+elemento.remove()
+elemento.parentElement
+elemento.parentElement.remove()
+```
+- `remove()` — remove o próprio elemento da página.
+- `parentElement` — acessa o elemento pai.
+- `parentElement.remove()` — remove o elemento pai, se existir.
+
+## 8. Eventos
+```js
+elemento.addEventListener("click", funcao)
+elemento.addEventListener("input", funcao)
+elemento.addEventListener("submit", funcao)
+```
+- `click` — reage a um clique.
+- `input` — reage à alteração de um campo durante a digitação.
+- `submit` — reage ao envio de um formulário.
+
+**Importante:** passar `funcao` sem parênteses faz com que ela seja chamada quando o evento ocorrer.
+
+## 9. Alterar estilos pelo JavaScript
+```js
+elemento.style.color = "green"
+elemento.style.backgroundColor = "black"
+elemento.style.display = "none"
+elemento.src = "imagem.png"
+```
+- `color` — altera a cor do texto.
+- `backgroundColor` — altera a cor de fundo.
+- `display = "none"` — oculta o elemento.
+- `src` — define a origem de uma imagem.
+
+## 10. Formatar valores
+```js
+valor.toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL"
+})
+```
+Formata um número como moeda brasileira.
+
+## 11. Exemplo de criação de elemento
+```js
+const novoItem = document.createElement("div");
+
+novoItem.classList.add("info-historico");
+
+novoItem.innerText = "Compra de um jogo";
+
+caixa.appendChild(novoItem);
+```
+
+Esse exemplo cria uma `div`, adiciona uma classe, define seu texto e insere o elemento na página.
+
+## Cola rápida
+
+| Objetivo | Método |
+|---|---|
+| Selecionar | `document.getElementById()` |
+| Criar | `document.createElement()` |
+| Adicionar classe | `classList.add()` |
+| Remover classe | `classList.remove()` |
+| Inserir elemento | `appendChild()` |
+| Inserir vários elementos | `append()` |
+| Definir texto | `innerText` |
+| Ler input | `value` |
+| Converter para número | `Number()` |
+| Ouvir clique | `addEventListener()` |
+| Remover elemento | `remove()` |
+| Acessar elemento pai | `parentElement` |
+
+METODOS APARA ARRAY: Metodo join, ele troca os separadores do array .join(` ? `), remover o item da matriz se usa pop, x.pop()
+adiconar se usa o metodo push,  x.push(item adiconado), unshift faz o elemento aparece e primeiro na matriz, x.unshift(`item`) e shiift
+deleta o item mas a sequencia de numero do array contiua x.shift(1), metodo splice, x.splice(1 a posicao aonde vc quer, 0 se voce quer remover algum item, `item`, `item2`)
+concat ajuda a juntar os array diferente, x.concat(y), ai aparece os elemntos dentro do x e y, metodo .sort faz os elmentos ficar em ordem alfabetica
