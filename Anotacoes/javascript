@@ -405,3 +405,6 @@ METODOS APARA ARRAY: Metodo join, ele troca os separadores do array .join(` ? `)
 adiconar se usa o metodo push,  x.push(item adiconado), unshift faz o elemento aparece e primeiro na matriz, x.unshift(`item`) e shiift
 deleta o item mas a sequencia de numero do array contiua x.shift(1), metodo splice, x.splice(1 a posicao aonde vc quer, 0 se voce quer remover algum item, `item`, `item2`)
 concat ajuda a juntar os array diferente, x.concat(y), ai aparece os elemntos dentro do x e y, metodo .sort faz os elmentos ficar em ordem alfabetica
+
+setTimeout: setTimeout(funcition(){oq vai acontecer}, e os segundos aqui 1000 -> 1s) ele faz um conatdor de quando da um determinado tempo ele vai executar alguma funcao
+clearTimeout(a variavel que vc quer parar), faz o setTimeout para o contador

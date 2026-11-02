@@ -1,0 +1,6 @@
+MySQL
+|_ DDL Definicao -> cria, modifica ou apaga tabelas e bancos de dados.
+|_ DML Manipulacao -> adiciona, altera ou apaga informações.
+|_ DQL Solitacao -> busca informações no banco de dados.
+|_ DCL Controle -> controla quem pode acessar ou modificar o banco.
+|_ DTL Transacao -> confirma ou desfaz alterações feitas no banco.
