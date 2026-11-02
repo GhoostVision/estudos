@@ -408,3 +408,5 @@ concat ajuda a juntar os array diferente, x.concat(y), ai aparece os elemntos de
 
 setTimeout: setTimeout(funcition(){oq vai acontecer}, e os segundos aqui 1000 -> 1s) ele faz um conatdor de quando da um determinado tempo ele vai executar alguma funcao
 clearTimeout(a variavel que vc quer parar), faz o setTimeout para o contador
+setInterval: setInterval(function (){}, 1000 ->1000)ele faz o elemento repetir a cada segundo ou minuto que vc quer
+cleatInterval: Faz para o evento do setInterval

@@ -8,9 +8,9 @@ function iniciarevento(){
 }
 
 let senha = 1234
-let campo_senha = document.getElementById(`campo_senha`).value
 
 function enviar_senha(){
+    let campo_senha = document.getElementById(`campo_senha`).value
     if (campo_senha == senha){
         clearTimeout(conatador_bomba)
         contador.innerText = `Bomba desativada`
